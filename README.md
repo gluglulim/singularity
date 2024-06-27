@@ -31,6 +31,9 @@ Coverage results running on Mac: 53%
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for detect_chance_to_danger_level](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Coverage%20results%20for%20detect_chance_to_danger_level.png)
+![image](https://github.com/gluglulim/singularity/assets/97146777/9db5841e-8e03-4ec7-984b-1d4c45e913dc)
+![image](https://github.com/gluglulim/singularity/assets/97146777/0e93ec20-3256-4f82-9e98-cb620d71bed1)
+
 
 
 **Function 2:** `strip_to_null(a_string)`
