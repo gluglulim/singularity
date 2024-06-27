@@ -125,12 +125,18 @@ To ensure these branches were covered, new test cases were created to give input
 
 **Test 2:** `detect_chance_to_danger_level(detects_per_day)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/1/commits)
+![image](https://github.com/gluglulim/singularity/assets/97146777/3d94ec7d-538a-4246-8898-6714aa6128b5)
+
+
 
 **Old coverage results:**
 ![Old coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/c97dc5fe-60e2-4abd-b4f4-879bc0726efb)
+
 
 **New coverage results:**
 ![New coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/c0bbf325-ddef-4ecc-acaf-672085322772)
 
 **Coverage improvement:**
 The `detect_chance_to_danger_level(detects_per_day)` function had 0% coverage by coverage.py. This function assesses the danger level based on the number of detections per day in the game. To improve coverage, tests were created to cover all 4 branches:
