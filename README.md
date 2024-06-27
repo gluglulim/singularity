@@ -77,6 +77,7 @@ coverage results of files containing the selected functions :
 ![Coverage results for power_state_name](link-to-screenshot)
 
 **Marika Litwiniak**
+<img width="679" alt="Screenshot 2024-06-27 at 22 57 47" src="https://github.com/gluglulim/singularity/assets/122304884/b2fbf292-f151-4114-902d-dcb84296f761">
 
 **Function 1:** `suspicion_to_danger_level(suspicion)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
