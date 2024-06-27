@@ -1,781 +1,261 @@
 # Report for Assignment 1
 
 ## Project chosen
-
-**Name: &lt;singularity>**
-
-**URL: &lt;https://github.com/singularity/singularity>**
-
-Number of lines of code and the tool used to count it: &lt;Lizard - 13782 lines of code>
-
-Programming language: &lt;Python>
+**Name:** singularity  
+**URL:** [https://github.com/singularity/singularity](https://github.com/singularity/singularity)  
+**Number of lines of code and the tool used to count it:** Lizard - 13782 lines of code  
+**Programming language:** Python  
 
 ## Coverage measurement
 
 ### Existing tool
+**Name of the existing tool:** coverage.py
 
-**&lt;Inform the name of the existing tool that was executed and how it was executed>**
+**How it was executed:** 
 
- coverage.py 
+**Coverage results provided by the existing tool with a screenshot:**
 
-**&lt;Show the coverage results provided by the existing tool with a screenshot>**
+![Coverage results running in Windows system](link-to-screenshot)
+Coverage results running in Windows system: 35%
 
-Coverage results running in Window system : 35%
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-Coverage results running on Mac - 53%
+![Coverage results running on Mac](link-to-screenshot)
+Coverage results running on Mac: 53%
 
 ### Your own coverage tool
 
-&lt;The following is supposed to be repeated for each group member>
-
-&lt;Youngchae Lim>
-
-coverage results of files containing the selected functions :  
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-&lt;Function 1 :`detect_chance_to_danger_level(detects_per_day):`>
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
-
-https://github.com/gluglulim/singularity/commit/4e73ea0738c6ecbf3034df3e759ea95f03a06517
-
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the coverage results output by the instrumentation>
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
-&lt;Function 2: `def strip_to_null(a_string):`>
-
-[https://github.com/gluglulim/singularity/commit/08aedf88f5f52ef68f8e529f729e07c1c8101706#diff-0b9aa73ce494f32270b58ee8500b17328a4390bce1e96a56b1883a8495f32ac3](https://github.com/gluglulim/singularity/commit/08aedf88f5f52ef68f8e529f729e07c1c8101706#diff-0b9aa73ce494f32270b58ee8500b17328a4390bce1e96a56b1883a8495f32ac3) 
-
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
-
-&lt;Provide the same kind of information provided for Function 1>
-
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
-
-&lt;Wiktoria Zaręba>
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
-
-&lt;Function 1: **<code>def fake_click(down):</code></strong>>
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
-
-[https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08) 
-
-&lt;Provide a screenshot of the coverage results output by the instrumentation>
-
- 
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
-
-&lt;Function 2: **<code>def insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v):</code></strong> >
-
-[https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08) 
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
-
-&lt;Provide the same kind of information provided for Function 1>
-
-**&lt;Yuto Ishihara>**
-
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
-
-
-&lt;Function 1: `get_writable_file_in_dirs(filename, dir_name, outer_paths=None):`>
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
-
-&lt;Provide a screenshot of the coverage results output by the instrumentation>
-
- 
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the new coverage results>
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
-
-&lt;Function 2: `def power_state_name(self):`>
-
-&lt;Provide a screenshot of the coverage results output by the instrumentation>
-
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the new coverage results>
-
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
-
-
-&lt;Marika Litwiniak>
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
-
-
-```
-def suspicion_to_danger_level(suspicion)
-```
-
-
-[https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
-
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
-
- 
-
-
-```
-def nearest_percent(value, step=100)
-```
-
-
- 
-
-[https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
-
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
-
-** ## Coverage improvement**
-
-** ### Individual tests**
-
- 
-
-&lt;The following is supposed to be repeated for each group member>
-
-**&lt;Youngchae Lim>**
-
- 
-
-&lt;Test 1:`def strip_to_null(a_string):`>
-
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
-
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced test>
-
-[https://github.com/gluglulim/singularity/pull/1/commits](https://github.com/gluglulim/singularity/pull/1/commits)
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the old coverage results (the same as you already showed above)>
-
- 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the new coverage results>
-
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.png "image_tooltip")
-
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
- 	the def strip_to_null(a_string): was not covered by coverage test from coverage.py at all, it was 0%, and it improved from 0% to 90% with created own test which is checking three branches in the function ‘strip_to_null’ 
-
-
-
-1. Checking if the string is empty
-2. Checking if the first character is space 
-3. Checking if the last character is space
-
-so, to ensure these branches were covered I created new test cases to give input with empty string, leading space and trailing space and both leading and trailing spaces. And these tests made all branches function were executed, thus it made branch coverage improved.
-
-&lt;Test 2: `detect_chance_to_danger_level(detects_per_day):` >
-
-&lt;Provide the same kind of information provided for Test 1>
-
-&lt;old coverage test result>
-
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.png "image_tooltip")
-
-
-&lt;improved result of coverage test>
-
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image27.png "image_tooltip")
-
-
-&lt;commit link of new test>
-
-[https://github.com/gluglulim/singularity/pull/1/commits](https://github.com/gluglulim/singularity/pull/1/commits)
-
-
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image28.png "image_tooltip")
-
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
-The function ‘def detect_chance_to_danger_level(detects_per_day):’ had 0% coverage result by exist coverage tool coverage.py. This function is designed to assess the danger level based on the number of detections per day in game. To improve coverage needed to make test cover all 4 branches
-
-
-
-1. if detects_per_day > 225 return 3
-2. elif detects_per_day > 150 return 2
-3. elif detects_per_day > 75 return 1
-4. else return 0.
-
-For test these 4 branches we created test cases to cover each branch with given different input, for example,
-
-Test case 1: when detects_per_day > 225, we gave 230 expected result 3.
-
-Test case 2: when detects_per_day > 150, we gave 160 expected result 2.
-
-Test case 2: when detects_per_day > 75, we gave 100 expected result 1.
-
-Test case 2: when detects_per_day &lt;= 75, we gave 50 expected result 0.
-
-The test cases successfully covered each branch and improved coverage from 0% to 90%.
-
-**&lt;Wiktoria Zaręba>**
-
-&lt;**def** fake_click(down):>
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced test>
-
- [https://github.com/gluglulim/singularity/commit/5321ee6ae2ab8027c959b7c7a8947fb1eb90e2ea](https://github.com/gluglulim/singularity/commit/5321ee6ae2ab8027c959b7c7a8947fb1eb90e2ea) 
-
-&lt;Provide a screenshot of the old coverage results (the same as you already showed above)>
-
-
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image29.png "image_tooltip")
-
-
- 
-
-&lt;Provide a screenshot of the new coverage results>
-
- 
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image30.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image30.png "image_tooltip")
-
-
-
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image31.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image31.png "image_tooltip")
-
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
- The coverage measured with coverage.py was 0% and now it is 100%. The reason the coverage was 0% at first is because there was no test written for it. A new test file was created test_dialog.py that contains a class TestDialog and tests. The function fake_click function is used to fake a mouse click event and can either fake a button-down event or button-up event using the pygame library. In order to improve coverage 2 branches had to be covered
-
-
-
-1. if down
-2. else
-
-the following test cases were made for the two branches
-
-
-
-1. test_fake_click_down checks whether the simulated mouse click event button down evaluates to true and has an assertion that only passes when branch 1 is executed
-2. test_fake_click_up checks if fake_click(false) is true meaning that the simulated mouse event was a button-up. The test includes an assertion that passes once the else branch is executed. 
-
-Function 2
-
-&lt;def insort_right_w_key(a, x, lo = 0, hi = None, key = lambda v: v):>
-
- 	[https://github.com/gluglulim/singularity/commit/e6a47171edccc60917b7cb54b7704c52f140ee84](https://github.com/gluglulim/singularity/commit/e6a47171edccc60917b7cb54b7704c52f140ee84) 
-
-&lt;Provide the same kind of information provided for Test 1>
-
-
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image32.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image32.png "image_tooltip")
-
-
-
-
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image33.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image33.png "image_tooltip")
-
-
-The initial function coverage measurement was 0% because there was no test written for this particular function. In the file test_dialog.py that already contains a test for fake_click, I created a function Test Dialog to include both test in one file and created the test cases for the following branches:
-
-
-
-1. if lo &lt; 0
-2. if hi is None
-3. while lo &lt; hi
-4. if x_key &lt; mid_key
-5. else
-
-The following test cases where made:
-
-
-
-1. test_with_negative_lo  this test will tests if a value error will occur if the value of the parameter lo is negative
-2. test_insert_with_none_hi this test checks how the function will behave when hi is none. It is supposed to set the value of hi to the length of a. If it does the assertion passes
-3. test_insert_into_empty_list checks if someone inserted one value into an empty list that only has that value so basically if the function's behavior is correct. 
-4. test_insert_into_sorted_list this test checks whether the insertion of an element to a non-empty sorted list is done correctly. 
-5. test_insert__duplicates element checks if the function inserts the element to the right side of the element with an equal value
-
-All the tests were done with assertEqual except the first one. 
-
-**&lt;Yuto Ishihara>**
-
-&lt;test_get_writable_file_in_dirs.py>
-
- 
-
-&lt;Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced test>
-
-[https://github.com/gluglulim/singularity/pull/3/commits](https://github.com/gluglulim/singularity/pull/3/commits)
-
-
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image34.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image34.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the old coverage results (the same as you already showed above)>
-
-
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image35.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image35.png "image_tooltip")
- 
-
-&lt;Provide a screenshot of the new coverage results>
-
- 
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image36.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image36.png "image_tooltip")
-
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
- The original result for the coverage of function ‘get_writable_file_in_dirs(filename, dir_name, outer_paths=None)’ was 0% according to the tool coverage.py. The purpose of the usage of this function is to get files, that are writable, in the file dir.py.  To improve coverage needed to make test cover all 3 branches:
-
-
-
-* Declare global variable write_dirs
-* Assign the write_dirs[dir_name] to the variable
-1. If write_dir is not None, then update branch_coverage["get_writable_file_in_dirs_1"] to True state and real_paths to os.path.join(write_dir, filename) and (if statement 2 is None) then return real_paths, otherwise jump to statement 2
-2. If the statement 1 is not None and outer_paths is not None either, then update branch_coverage["get_writable_file_in_dirs_2"] to True state and append outer_path to real_path, then return real_path
-3. Else then update branch_coverage["get_writable_file_in_dirs_3”] to True then return None
-
-we changed the functions as:
-
-
-
-* Assign write.get(dir_name) to the global variable write_dirs (All if-and-else statements are unchanged)
-
-The test cases successfully covered both branches. Hence the coverage improved as it increased from 0% to 92%.
-
-&lt;test_power_state_machine.py>
-
-&lt;Provide a screenshot of the old coverage results (the same as you already showed above)>
-
-
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image37.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image37.png "image_tooltip")
-
-
-&lt;Provide a screenshot of the new coverage results>
-
-
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image38.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image38.png "image_tooltip")
-
-
- 
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
- The original result for the coverage of function ‘power_state_name(value, step=100):’ was 0% according to the tool coverage.py. The purpose of the usage of this function is to update power state from the signal that the function gets.
-
-To improve coverage needed to make test cover all 8 branches:
-
-
-
-1. If self.power_state is “offline”, then branch_coverage[“power_state_name_1”] return “Offline”
-2. If self.power_state is “active”, then branch_coverage[“power_state_name_2”] return “Active”
-3. If self.power_state is “sleep”, then branch_coverage[“power_state_name_3”] return “Sleep”
-4. If self.power_state is “overclocked”, then branch_coverage[“power_state_name_4”] return “Overlocked”
-5. If self.power_state is “suicide”, then branch_coverage[“power_state_name_5”] return “Suicide”
-6. If self.power_state is “stasis”, then branch_coverage[“power_state_name_6”] return “Stasis”
-7. If self.power_state is “entering_stasis”, then branch_coverage[“power_state_name_7”] return “Entering_stasis”
-8. If self.power_state is “leaving_stasis”, then branch_coverage[“power_state_name_8”] return “Leaving_stasis”
-9. Else, it returns “”
-
-we changed the function as:
-
-
-
-1. If self.power_state is “offline”, then branch_coverage[“power_state_name_1”] will be True and return “Offline”
-2. If self.power_state is “active”, then branch_coverage[“power_state_name_2”] will be True and return “Active”
-3. If self.power_state is “sleep”, then branch_coverage[“power_state_name_3”] will be True and return “Sleep”
-4. If self.power_state is “overclocked”, then branch_coverage[“power_state_name_4”] will be True and return “Overlocked”
-5. If self.power_state is “suicide”, then branch_coverage[“power_state_name_5”] will be True and return “Suicide”
-6. If self.power_state is “stasis”, then branch_coverage[“power_state_name_6”] will be True and return “Stasis”
-7. If self.power_state is “entering_stasis”, then branch_coverage[“power_state_name_7”] will be True and return “Entering_stasis”
-8. If self.power_state is “leaving_stasis”, then branch_coverage[“power_state_name_8”] will be True and return “Leaving_stasis”
-9. Else, it returns “”
-
-The test cases successfully covered both branches. Hence the coverage improved as it increased from 0% to 93%
-
-**&lt;Marika Litwiniak>**
-
- 
-
-&lt;test_suspicion.py>
-
- 	​​[https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
-
-
-
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image39.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image39.png "image_tooltip")
-
-
- 
-
- 
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image40.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image40.png "image_tooltip")
-
-
-&lt;State the coverage improvement with a number and elaborate on why the coverage is improved>
-
-The function ‘suspicion_to_danger_level(suspicion)’ had 0% coverage result according to the coverage tool coverage.py. To improve the coverage the test needed to cover all 4 branches:
-
-
-
-1. if suspicion &lt; 2500 return 0
-2. elif suspicion &lt; 5000 return 1
-3. elif suspicion &lt; 7500 return 2
-4. else return 3.
-
-To test these 4 branches we created test cases to cover each branch using different input : 
-
-Test case 1: when suspicion &lt; 2500, we gave 1000 and expected result == 0.
-
-Test case 2: when suspicion &lt; 5000, we gave 3000 and expected result == 1.
-
-Test case 3: when suspicion &lt; 7500, we gave 6000 and expected result == 2.
-
-Test case 4: when suspicion >= 7500, we gave 8000 and expected result == 3.
-
-The test cases successfully covered each branch and improved the function coverage from 0% to 100%, the file coverage increased by 4% (from 70% to 74%)
-
- 
-
-&lt;test_nearest.py>
-
- ​​[https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
-
-
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image41.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image41.png "image_tooltip")
-
-
-
-
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image42.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image42.png "image_tooltip")
-
-
-The function ‘nearest_percent(value, step = 100)’  had 0% coverage result according to the coverage tool coverage.py. To improve the coverage the test needed to cover all 2 branches:
-
-
-
-1. if 2 * sub_percent &lt;= step return value - sub_percent
-2. else return value + (step - sub_percent).
-
-To test these 2 branches we created test cases to cover each branch using different input : 
-
-Test case 1: when 2 * sub_percent &lt;= step return value - sub_percent, we gave ‘value’ = 140 and expected result == 100.
-
-Test case 2: when 2 * sub_percent > step return value - sub_percent, we gave ‘value’ = 180 and expected result == 200.
-
-The test cases successfully covered each branch and improved the function coverage from 0% to 100%, the file coverage increased by 2% (from 74% to 76%)
-
-**### Overall**
-
- 
-
-&lt;Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
-
-
-
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image43.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image43.png "image_tooltip")
-
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image44.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image44.png "image_tooltip")
-
-
-&lt;old coverage results left : window, right : mac OS>
-
- 
-
-&lt;Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
-
-
-
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image45.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image45.png "image_tooltip")
-
-
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image46.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image46.png "image_tooltip")
-
-
-New coverage on Window : After the merge, the coverage test showed the same 35% total percentage. However, the newly generated tests we proposed were definitely over 80% after the merge.
-
-When we compared the test results, we found that some tests failed in the system part we didn’t touch.
-
-
-
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image47.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image47.png "image_tooltip")
-
-
-New coverage result on Mac: 55%
-
-The overall coverage result on Mac system improved from 53% to 55% but all functions chosen are at least 80%.
-
-## Statement of individual contributions
-
-&lt;Write what each group member did>
-
 **Youngchae Lim**
 
+**Function 1:** `detect_chance_to_danger_level(detects_per_day)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/4e73ea0738c6ecbf3034df3e759ea95f03a06517)
 
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for detect_chance_to_danger_level](link-to-screenshot)
 
-* Functions: ‘strip_to_null(a_string)’, ‘detect_chance_to_danger_level(detects_per_day)’
-* Focused on instrumentation and testing these functions from project singularity to gather coverage measurements. Test cases included scenarios such as checking for empty strings, leading spaces, trailing spaces, and different detection counts per day in the project software
+**Function 2:** `strip_to_null(a_string)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/08aedf88f5f52ef68f8e529f729e07c1c8101706#diff-0b9aa73ce494f32270b58ee8500b17328a4390bce1e96a56b1883a8495f32ac3)
+
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for strip_to_null](link-to-screenshot)
 
 **Wiktoria Zaręba**
 
+**Function 1:** `fake_click(down)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08)
 
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for fake_click](link-to-screenshot)
 
-* Functions: ‘fake_click(down)’, ‘insort_right_w_key(a, x, lo = 0, hi = None, key = lambda v: v):’
-* Responsible for creating new tests for these two test functions, her efforts resulted in a 100% coverage improvement for the first function and 98% coverage for the second function.
-* The first function fake_click was tested in file test_dialog.py and the second function is tested in the file test_insort.
-* Both test were created (there was no testing provided for any of the function)
-* The contribution for the report is all the coverage analysis for 2 chosen functions and the description of the testing as well as the overall coverage of the project before and after
+**Function 2:** `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08)
+
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for insort_right_w_key](link-to-screenshot)
 
 **Yuto Ishihara**
 
+**Function 1:** `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/3/commits)
 
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for get_writable_file_in_dirs](link-to-screenshot)
 
-* Functions: ‘get_writable_file_in_dire(filename, dir_name, outer_path=None)’, ‘power_state_name(self)’
-* Developed test cases to cover all branches of these functions, improving the coverage from 0% to 92% (for the first test) and to 87% (for the second test)
-* The contribution of the report is to check everyone’s codes in order to avoid any conflict. Then I figured out that I was accidentally using the same code as another member so I could switch to another function before it's too late. I also checked for grammar mistakes and actually corrected some of them.
+**Function 2:** `power_state_name(self)`
+[Patch (diff) or commit link](link-to-commit)
+
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for power_state_name](link-to-screenshot)
 
 **Marika Litwiniak**
 
+**Function 1:** `suspicion_to_danger_level(suspicion)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
 
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for suspicion_to_danger_level](link-to-screenshot)
 
-* Functions: ‘suspicion_to_danger_level(suspicion)’,  ‘nearest_percent(value, step = 100)’
-* Responsible for writing tests for the two chosen functions, and improving both of their coverage from 0% to 100% 
-* Provided coverage analysis for the chosen functions and contributed in writing the intro and overall part of the project's report
+**Function 2:** `nearest_percent(value, step=100)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
 
-Our group proceeded with this task, and through periodic meetings online/offline, we found projects for the task together and shared testing methods and ideas with each other.
+**Screenshot of the coverage results output by the instrumentation:**
+![Coverage results for nearest_percent](link-to-screenshot)
+
+## Coverage improvement
+
+### Individual tests
+
+**Youngchae Lim**
+
+**Test 1:** `strip_to_null(a_string)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/1/commits)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The `strip_to_null(a_string)` function was not covered by coverage.py at all (0%) and improved to 90% with newly created tests. The tests check three branches in the function:
+- Checking if the string is empty
+- Checking if the first character is a space
+- Checking if the last character is a space
+
+To ensure these branches were covered, new test cases were created to give input with an empty string, leading space, trailing space, and both leading and trailing spaces. These tests executed all branches of the function, improving the branch coverage.
+
+**Test 2:** `detect_chance_to_danger_level(detects_per_day)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/1/commits)
+
+**Old coverage results:**
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The `detect_chance_to_danger_level(detects_per_day)` function had 0% coverage by coverage.py. This function assesses the danger level based on the number of detections per day in the game. To improve coverage, tests were created to cover all 4 branches:
+- If `detects_per_day > 225`, return 3
+- If `detects_per_day > 150`, return 2
+- If `detects_per_day > 75`, return 1
+- Else, return 0
+
+Test cases were created to cover each branch with different input values:
+- `detects_per_day > 225`: input 230, expected result 3
+- `detects_per_day > 150`: input 160, expected result 2
+- `detects_per_day > 75`: input 100, expected result 1
+- `detects_per_day <= 75`: input 50, expected result 0
+
+These test cases successfully covered each branch, improving the coverage from 0% to 90%.
+
+**Wiktoria Zaręba**
+
+**Test 1:** `fake_click(down)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/5321ee6ae2ab8027c959b7c7a8947fb1eb90e2ea)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The initial coverage measured with coverage.py was 0% and now it is 100%. This was because there were no tests written for it initially. A new test file, `test_dialog.py`, was created containing a class `TestDialog` with tests. The function `fake_click` simulates a mouse click event and can fake either a button-down or button-up event using the Pygame library. To improve coverage, the following test cases were created:
+- `test_fake_click_down` checks if the simulated mouse click event button down evaluates to true.
+- `test_fake_click_up` checks if `fake_click(false)` is true, meaning the simulated mouse event was a button-up.
+
+**Test 2:** `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/e6a47171edccc60917b7cb54b7704c52f140ee84)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The initial function coverage measurement was 0% due to the absence of tests. In `test_dialog.py`, the following test cases were created:
+- `test_with_negative_lo`: tests if a value error occurs if `lo` is negative.
+- `test_insert_with_none_hi`: checks if the function sets `hi` to the length of `a` when `hi` is None.
+- `test_insert_into_empty_list`: checks if inserting a value into an empty list behaves correctly.
+- `test_insert_into_sorted_list`: verifies correct insertion of an element into a sorted list.
+- `test_insert_duplicates`: ensures that elements with equal values are inserted to the right side.
+
+**Yuto Ishihara**
+
+**Test 1:** `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/3/commits)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The original result for `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)` was 0%. This function aims to get writable files in `dir.py`. To improve coverage, tests were created for the following branches:
+- Declare global variable `write_dirs`.
+- Assign `write_dirs[dir_name]` to the variable.
+- If `write_dir` is not None, update `branch_coverage["get_writable_file_in_dirs_1"]` to True and set `real_paths` accordingly.
+- If the first statement is not None and `outer_paths` is not None, update `branch_coverage["get_writable_file_in_dirs_2"]` to True.
+- Else, update `branch_coverage["get_writable_file_in_dirs_3"]` to True.
+
+**Test 2:** `power_state_name(self)`
+[Patch (diff) or commit link](link-to-commit)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The initial coverage for `power_state_name(self)` was 0%. This function updates the power state. Tests were created for the following branches:
+- If `self.power_state` is "offline", update `branch_coverage["power_state_name_1"]`.
+- If `self.power_state` is "active", update `branch_coverage["power_state_name_2"]`.
+- If `self.power_state` is "sleep", update `branch_coverage["power_state_name_3"]`.
+- If `self.power_state` is "overclocked", update `branch_coverage["power_state_name_4"]`.
+- If `self.power_state` is "suicide", update `branch_coverage["power_state_name_5"]`.
+- If `self.power_state` is "stasis", update `branch_coverage["power_state_name_6"]`.
+- If `self.power_state` is "entering_stasis", update `branch_coverage["power_state_name_7"]`.
+- If `self.power_state` is "leaving_stasis", update `branch_coverage["power_state_name_8"]`.
+
+**Marika Litwiniak**
+
+**Test 1:** `suspicion_to_danger_level(suspicion)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The `suspicion_to_danger_level(suspicion)` function had 0% coverage. Tests were created for the following branches:
+- If `suspicion < 2500`, return 0.
+- If `suspicion < 5000`, return 1.
+- If `suspicion < 7500`, return 2.
+- Else, return 3.
+
+**Test 2:** `nearest_percent(value, step=100)`
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
+
+**Old coverage results:** 
+![Old coverage results](link-to-screenshot)
+
+**New coverage results:**
+![New coverage results](link-to-screenshot)
+
+**Coverage improvement:**
+The `nearest_percent(value, step=100)` function had 0% coverage. Tests were created for the following branches:
+- If `2 * sub_percent <= step`, return `value - sub_percent`.
+- Else, return `value + (step - sub_percent)`.
+
+## Overall
+
+**Old coverage results by running an existing tool:**
+![Old coverage results (Windows)](link-to-screenshot)
+![Old coverage results (Mac)](link-to-screenshot)
+
+**New coverage results by running the existing tool using all test modifications:**
+**New coverage on Windows:** After the merge, the overall coverage test showed 35% total percentage. However, the newly generated tests proposed had over 80% coverage. Some tests failed in areas we did not modify.
+
+**New coverage result on Mac:** Improved from 53% to 55%. All functions chosen are at least 80%.
+
+## Statement of individual contributions
+**Youngchae Lim**  
+Functions: `strip_to_null(a_string)`, `detect_chance_to_danger_level(detects_per_day)`  
+Focused on instrumentation and testing these functions from project singularity to gather coverage measurements. Test cases included scenarios such as checking for empty strings, leading spaces, trailing spaces, and different detection counts per day in the project software.
+
+**Wiktoria Zaręba**  
+Functions: `fake_click(down)`, `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`  
+Responsible for creating new tests for these functions, resulting in a 100% coverage improvement for the first function and 98% coverage for the second function. Tests were created in `test_dialog.py`.
+
+**Yuto Ishihara**  
+Functions: `get_writable_file_in_dirs(filename, dir_name, outer_path=None)`, `power_state_name(self)`  
+Developed test cases to cover all branches of these functions, improving coverage from 0% to 92% (first function) and to 87% (second function). Also checked for grammar mistakes in the report.
+
+**Marika Litwiniak**  
+Functions: `suspicion_to_danger_level(suspicion)`, `nearest_percent(value, step=100)`  
+Responsible for writing tests for the chosen functions, improving their coverage from 0% to 100%. Contributed to coverage analysis and writing the introduction and overall part of the report.
+
+Our group proceeded with this task through periodic meetings online/offline, found projects together, and shared testing methods and ideas.
