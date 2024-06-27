@@ -98,12 +98,17 @@ coverage results of files containing the selected functions :
 
 **Test 1:** `strip_to_null(a_string)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/1/commits)
+![image](https://github.com/gluglulim/singularity/assets/97146777/53764402-f59d-4f3d-92e3-bdd63a19dc3f)
+![image](https://github.com/gluglulim/singularity/assets/97146777/b6c72943-7bd0-4d55-8800-67b03b8e78fb)
+
 
 **Old coverage results:** 
-![Old coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/cefaa5e9-f9fc-43a8-8616-a031851cc795)
+
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/147b9896-87c0-4481-898a-10f63d1a667d)
+
 
 **Coverage improvement:**
 The `strip_to_null(a_string)` function was not covered by coverage.py at all (0%) and improved to 90% with newly created tests. The tests check three branches in the function:
