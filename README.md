@@ -274,7 +274,12 @@ The `suspicion_to_danger_level(suspicion)` function had 0% coverage. Tests were 
 
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![New coverage results]
+<img width="773" alt="Screenshot 2024-06-19 at 14 53 22" src="https://github.com/gluglulim/singularity/assets/122304884/bbca3cfb-b7a8-463f-913b-e67073b4040d">
+
+<img width="645" alt="Screenshot 2024-06-27 at 23 06 36" src="https://github.com/gluglulim/singularity/assets/122304884/df93ff47-7f7e-48a3-b9b8-dfb06b19d55e">
+
+
 
 **Coverage improvement:**
 The `nearest_percent(value, step=100)` function had 0% coverage. Tests were created for the following branches:
