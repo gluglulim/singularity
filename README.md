@@ -39,6 +39,8 @@ coverage results of files containing the selected functions :
 
 **Function 2:** `strip_to_null(a_string)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/08aedf88f5f52ef68f8e529f729e07c1c8101706#diff-0b9aa73ce494f32270b58ee8500b17328a4390bce1e96a56b1883a8495f32ac3)
+![image](https://github.com/gluglulim/singularity/assets/97146777/d370dd9d-81b2-45ae-9250-fcd506b70ed7)
+
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for strip_to_null](link-to-screenshot)
