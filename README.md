@@ -213,7 +213,8 @@ The initial coverage for `power_state_name(self)` was 0%. This function updates 
 ![Old coverage results](link-to-screenshot)
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![New coverage results](link-to-screenshot)<img width="815" alt="Screenshot 2024-06-19 at 14 00 13" src="https://github.com/gluglulim/singularity/assets/122304884/d4f61ffb-b318-4b0e-aae6-475aa1565e32">
+
 
 **Coverage improvement:**
 The `suspicion_to_danger_level(suspicion)` function had 0% coverage. Tests were created for the following branches:
