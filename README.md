@@ -201,12 +201,16 @@ The initial function coverage measurement was 0% due to the absence of tests. In
 
 **Test 1:** `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/3/commits)
+![image](https://github.com/gluglulim/singularity/assets/97146777/9eaf7dfb-4d98-4761-bc36-e05507aba980)
+
 
 **Old coverage results:** 
-![Old coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/ee5c8d00-d057-4509-9128-0073e1a63e39)
+
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/b03d7217-8457-4918-8bd1-08f296abcc9f)
+
 
 **Coverage improvement:**
 The original result for `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)` was 0%. This function aims to get writable files in `dir.py`. To improve coverage, tests were created for the following branches:
@@ -217,13 +221,15 @@ The original result for `get_writable_file_in_dirs(filename, dir_name, outer_pat
 - Else, update `branch_coverage["get_writable_file_in_dirs_3"]` to True.
 
 **Test 2:** `power_state_name(self)`
-[Patch (diff) or commit link](link-to-commit)
+
 
 **Old coverage results:** 
-![Old coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/b020e891-7063-4920-aa01-658997c54cdb)
+
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/fddda42d-f5ec-4ad9-9533-9e8ab6cafa49)
+
 
 **Coverage improvement:**
 The initial coverage for `power_state_name(self)` was 0%. This function updates the power state. Tests were created for the following branches:
