@@ -327,18 +327,26 @@ The test cases successfully covered each branch and improved the function covera
 ## Statement of individual contributions
 **Youngchae Lim**  
 Functions: `strip_to_null(a_string)`, `detect_chance_to_danger_level(detects_per_day)`  
-Focused on instrumentation and testing these functions from project singularity to gather coverage measurements. Test cases included scenarios such as checking for empty strings, leading spaces, trailing spaces, and different detection counts per day in the project software.
+-	Focused on instrumentation and testing these functions from project singularity to gather coverage measurements. Test cases included scenarios such as checking for empty strings, leading spaces, trailing spaces, and different detection counts per day in the project software
 
 **Wiktoria Zaręba**  
 Functions: `fake_click(down)`, `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`  
-Responsible for creating new tests for these functions, resulting in a 100% coverage improvement for the first function and 98% coverage for the second function. Tests were created in `test_dialog.py`.
+-	Responsible for creating new tests for these two test functions, her efforts resulted in a 100% coverage improvement for the first function and 98% coverage for the second function.
+-	The first function fake_click was tested in file test_dialog.py and the second function is tested in the file test_insort.
+-	Both test were created (there was no testing provided for any of the function)
+-	The contribution for the report is all the coverage analysis for 2 chosen functions and the description of the testing as well as the overall coverage of the project before and after
+
 
 **Yuto Ishihara**  
 Functions: `get_writable_file_in_dirs(filename, dir_name, outer_path=None)`, `power_state_name(self)`  
-Developed test cases to cover all branches of these functions, improving coverage from 0% to 92% (first function) and to 87% (second function). Also checked for grammar mistakes in the report.
+-	Developed test cases to cover all branches of these functions, improving the coverage from 0% to 92% (for the first test) and to 87% (for the second test)
+-	The contribution of the report is to check everyone’s codes in order to avoid any conflict. Then I figured out that I was accidentally using the same code as another member so I could switch to another function before it's too late. I also checked for grammar mistakes and actually corrected some of them.
+
 
 **Marika Litwiniak**  
 Functions: `suspicion_to_danger_level(suspicion)`, `nearest_percent(value, step=100)`  
-Responsible for writing tests for the chosen functions, improving their coverage from 0% to 100%. Contributed to coverage analysis and writing the introduction and overall part of the report.
+-	Responsible for writing tests for the two chosen functions, and improving both of their coverage from 0% to 100% 
+-	Provided coverage analysis for the chosen functions and contributed in writing the intro and overall part of the project's report
 
-Our group proceeded with this task through periodic meetings online/offline, found projects together, and shared testing methods and ideas.
+
+Our group proceeded with this task, and through periodic meetings online/offline, we found projects for the task together and shared testing methods and ideas with each other.
