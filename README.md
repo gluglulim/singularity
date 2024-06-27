@@ -45,6 +45,7 @@ Coverage results running on Mac: 53%
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for fake_click](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.39.50.png)
+![Coverage for whole file](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Coverage%20results%20running%20on%20Mac.png)
 
 **Function 2:** `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08)
