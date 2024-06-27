@@ -40,7 +40,7 @@ Coverage results running on Mac: 53%
 **Wiktoria Zaręba**
 
 **Function 1:** `fake_click(down)`
-[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/5321ee6ae2ab8027c959b7c7a8947fb1eb90e2ea)
+[Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08)
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for fake_click](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.39.50.png)
