@@ -132,7 +132,7 @@ These test cases successfully covered each branch, improving the coverage from 0
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/5321ee6ae2ab8027c959b7c7a8947fb1eb90e2ea)
 
 **Old coverage results:** 
-![Old coverage results](link-to-screenshot)
+![Old coverage results](https://github.com/gluglulim/singularity/commit/e46c18a60d16ef0db69cc8aaefd0df17de161374)
 
 **New coverage results:**
 ![New coverage results](link-to-screenshot)
