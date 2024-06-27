@@ -60,7 +60,7 @@ coverage results of files containing the selected functions :
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/c2e03bd393d17616687adc2e21958e2ff579fd08)
 
 **Screenshot of the coverage results output by the instrumentation:**
-![Coverage results for insort_right_w_key](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.48.08.png)
+![Coverage results for insort_right_w_key](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.51.56.png)
 
 **Yuto Ishihara**
 
@@ -157,7 +157,7 @@ The initial coverage measured with coverage.py was 0% and now it is 100%. This w
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/e6a47171edccc60917b7cb54b7704c52f140ee84)
 
 **Old coverage results:** 
-![Old coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.48.08.png)
+![Old coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.51.56.png)
 
 **New coverage results:**
 ![New coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2018.40.23.png)
