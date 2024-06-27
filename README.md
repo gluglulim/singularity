@@ -15,7 +15,7 @@
 
 **Coverage results provided by the existing tool with a screenshot:**
 
-![Coverage results running in Windows system](link-to-screenshot)
+![Coverage results running in Windows system](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/coverage_result_window.png)
 Coverage results running in Windows system: 35%
 
 ![Coverage results running on Mac](link-to-screenshot)
