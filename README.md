@@ -83,7 +83,9 @@ coverage results of files containing the selected functions :
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
 
 **Screenshot of the coverage results output by the instrumentation:**
-![Coverage results for suspicion_to_danger_level](link-to-screenshot)
+![Coverage results for suspicion_to_danger_level]
+<img width="676" alt="Screenshot 2024-06-27 at 22 57 56" src="https://github.com/gluglulim/singularity/assets/122304884/a6e0715c-3a0d-4593-b248-b31dc3208df9">
+
 
 **Function 2:** `nearest_percent(value, step=100)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
