@@ -328,6 +328,7 @@ The test cases successfully covered each branch and improved the function covera
 **Youngchae Lim**  
 Functions: `strip_to_null(a_string)`, `detect_chance_to_danger_level(detects_per_day)`  
 -	Focused on instrumentation and testing these functions from project singularity to gather coverage measurements. Test cases included scenarios such as checking for empty strings, leading spaces, trailing spaces, and different detection counts per day in the project software
+-	From finding a project to all parts of the assignment, I always carried out with my team members, and I play a role in matching and helping each other with the shortcomings
 
 **Wiktoria Zaręba**  
 Functions: `fake_click(down)`, `insort_right_w_key(a, x, lo=0, hi=None, key=lambda v: v)`  
