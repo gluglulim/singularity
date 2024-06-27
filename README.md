@@ -273,6 +273,12 @@ The `suspicion_to_danger_level(suspicion)` function had 0% coverage. Tests were 
 - If `suspicion < 7500`, return 2.
 - Else, return 3.
 
+To test these 4 branches we created test cases to cover each branch using different input : 
+Test case 1: when suspicion < 2500, we gave 1000 and expected result == 0.
+Test case 2: when suspicion < 5000, we gave 3000 and expected result == 1.
+Test case 3: when suspicion < 7500, we gave 6000 and expected result == 2.
+Test case 4: when suspicion >= 7500, we gave 8000 and expected result == 3.
+
 The test cases successfully covered each branch and improved the function coverage from 0% to 100%, the file coverage increased by 4% (from 70% to 74%)
 
 
@@ -297,6 +303,11 @@ The test cases successfully covered each branch and improved the function covera
 The `nearest_percent(value, step=100)` function had 0% coverage. Tests were created for the following branches:
 - If `2 * sub_percent <= step`, return `value - sub_percent`.
 - Else, return `value + (step - sub_percent)`.
+
+To test these 2 branches we created test cases to cover each branch using different input : 
+Test case 1: when 2 * sub_percent <= step return value - sub_percent, we gave ‘value’ = 140 and expected result == 100.
+Test case 2: when 2 * sub_percent > step return value - sub_percent, we gave ‘value’ = 180 and expected result == 200.
+The test cases successfully covered each branch and improved the function coverage from 0% to 100%, the file coverage increased by 2% (from 74% to 76%)
 
 ## Overall
 
