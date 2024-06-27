@@ -91,7 +91,9 @@ coverage results of files containing the selected functions :
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/d5256cf1932fad94cb797bcdc035975bebb2b968)
 
 **Screenshot of the coverage results output by the instrumentation:**
-![Coverage results for nearest_percent](link-to-screenshot)
+![Coverage results for nearest_percent]
+<img width="673" alt="Screenshot 2024-06-27 at 22 58 03" src="https://github.com/gluglulim/singularity/assets/122304884/68ab5474-5fc9-4794-a098-f7bfdc5f4c7a">
+
 
 ## Coverage improvement
 
