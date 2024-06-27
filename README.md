@@ -88,6 +88,9 @@ coverage results of files containing the selected functions :
 
 
 **Marika Litwiniak**
+
+
+
 <img width="679" alt="Screenshot 2024-06-27 at 22 57 47" src="https://github.com/gluglulim/singularity/assets/122304884/b2fbf292-f151-4114-902d-dcb84296f761">
 
 **Function 1:** `suspicion_to_danger_level(suspicion)`
@@ -269,6 +272,9 @@ The `suspicion_to_danger_level(suspicion)` function had 0% coverage. Tests were 
 - If `suspicion < 5000`, return 1.
 - If `suspicion < 7500`, return 2.
 - Else, return 3.
+
+The test cases successfully covered each branch and improved the function coverage from 0% to 100%, the file coverage increased by 4% (from 70% to 74%)
+
 
 **Test 2:** `nearest_percent(value, step=100)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
