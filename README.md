@@ -24,6 +24,7 @@ Coverage results running on Mac: 53%
 ### Your own coverage tool
 
 **Youngchae Lim**
+coverage results of files containing the selected functions :  
 ![image](https://github.com/gluglulim/singularity/assets/97146777/d59176e1-cfb9-431d-ae89-434571b38c2b)
 
 **Function 1:** `detect_chance_to_danger_level(detects_per_day)`
