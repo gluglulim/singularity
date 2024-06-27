@@ -149,7 +149,7 @@ The initial coverage measured with coverage.py was 0% and now it is 100%. This w
 ![Old coverage results](link-to-screenshot)
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![New coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2018.40.23.png)
 
 **Coverage improvement:**
 The initial function coverage measurement was 0% due to the absence of tests. In `test_dialog.py`, the following test cases were created:
