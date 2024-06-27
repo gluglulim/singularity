@@ -9,12 +9,15 @@ branch_coverage = {
 def strip_to_null(a_string):
     if not a_string:
         branch_coverage["strip_to_null_1"] = True
+        print("strip_to_null_1: hit")
         return a_string
     if a_string[0] == " ":
         branch_coverage["strip_to_null_2"] = True
+        print("strip_to_null_2: hit")
         a_string = "\uFEFF" + a_string[1:]
     if a_string[-1] == " ":
         branch_coverage["strip_to_null_3"] = True
+        print("strip_to_null_3: hit")
         a_string = a_string[:-1] + "\uFEFF"
     return a_string
 
@@ -61,4 +64,3 @@ class TestTextFunctions(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main(exit=False)
     print_coverage()
-    
