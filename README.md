@@ -156,7 +156,7 @@ These test cases successfully covered each branch, improving the coverage from 0
 ![Old coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.39.50.png)
 
 **New coverage results:**
-![New coverage results](link-to-screenshot)
+![New coverage results](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.39.50.png)
 
 **Coverage improvement:**
 The initial coverage measured with coverage.py was 0% and now it is 100%. This was because there were no tests written for it initially. A new test file, `test_dialog.py`, was created containing a class `TestDialog` with tests. The function `fake_click` simulates a mouse click event and can fake either a button-down or button-up event using the Pygame library. To improve coverage, the following test cases were created:
