@@ -18,7 +18,7 @@
 ![Coverage results running in Windows system](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/coverage_result_window.png)
 Coverage results running in Windows system: 35%
 
-![Coverage results running on Mac]([link-to-screenshot](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Coverage%20results%20running%20on%20Mac.png?raw=true))
+![Coverage results running on Mac](link-to-screenshot/Coverage results running on Mac.png)
 Coverage results running on Mac: 53%
 
 ### Your own coverage tool
