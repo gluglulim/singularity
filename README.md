@@ -63,18 +63,29 @@ coverage results of files containing the selected functions :
 ![Coverage results for insort_right_w_key](https://github.com/gluglulim/singularity/blob/master/link-to-screenshot/Zrzut%20ekranu%202024-06-27%20o%2022.51.56.png)
 
 **Yuto Ishihara**
+![image](https://github.com/gluglulim/singularity/assets/97146777/96ef8277-e7bf-4908-9835-e23ed5bd930b)
+![image](https://github.com/gluglulim/singularity/assets/97146777/be3f5048-d061-4ffc-a6ce-80cbb9c564ac)
+
 
 **Function 1:** `get_writable_file_in_dirs(filename, dir_name, outer_paths=None)`
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/pull/3/commits)
+![image](https://github.com/gluglulim/singularity/assets/97146777/d96969e8-7b19-4d74-90f3-dd803f0cc683)
+
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for get_writable_file_in_dirs](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/7568e8ea-ec0c-4b4d-892d-bdd8cade50af)
+
 
 **Function 2:** `power_state_name(self)`
 [Patch (diff) or commit link](link-to-commit)
+![image](https://github.com/gluglulim/singularity/assets/97146777/ab9ef293-9576-4609-9ab4-a64c7c2e451d)
+
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for power_state_name](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/1874c8a7-f200-491f-8ac4-f41b3f4c7ccf)
+
 
 **Marika Litwiniak**
 <img width="679" alt="Screenshot 2024-06-27 at 22 57 47" src="https://github.com/gluglulim/singularity/assets/122304884/b2fbf292-f151-4114-902d-dcb84296f761">
