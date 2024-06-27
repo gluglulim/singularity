@@ -44,6 +44,8 @@ coverage results of files containing the selected functions :
 
 **Screenshot of the coverage results output by the instrumentation:**
 ![Coverage results for strip_to_null](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/b3069be6-ec6f-4b0c-a0d5-c7551a4e48f9)
+![image](https://github.com/gluglulim/singularity/assets/97146777/c279e317-152f-433a-a9da-9c0f0fcc7405)
 
 **Wiktoria Zaręba**
 
