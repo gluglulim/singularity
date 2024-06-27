@@ -246,7 +246,11 @@ The `nearest_percent(value, step=100)` function had 0% coverage. Tests were crea
 
 **Old coverage results by running an existing tool:**
 ![Old coverage results (Windows)](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/e075778b-a2f8-4974-bfb8-db05c047f09f)
+
 ![Old coverage results (Mac)](link-to-screenshot)
+![image](https://github.com/gluglulim/singularity/assets/97146777/38dbaafa-7e12-45fc-b582-2b3520f4f4b7)
+
 
 **New coverage results by running the existing tool using all test modifications:**
 **New coverage on Windows:** After the merge, the overall coverage test showed 35% total percentage. However, the newly generated tests proposed had over 80% coverage. Some tests failed in areas we did not modify.
