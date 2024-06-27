@@ -231,7 +231,12 @@ The initial coverage for `power_state_name(self)` was 0%. This function updates 
 [Patch (diff) or commit link](https://github.com/gluglulim/singularity/commit/40f5977ca6f00075fa292ff83ab6ae30847f322c)
 
 **Old coverage results:** 
-![Old coverage results](link-to-screenshot)
+![Old coverage results]
+<img width="679" alt="Screenshot 2024-06-27 at 22 57 47" src="https://github.com/gluglulim/singularity/assets/122304884/a3d6c0f7-833f-4b2f-9a94-28b3b4a879e2">
+
+
+<img width="669" alt="Screenshot 2024-06-27 at 23 06 05" src="https://github.com/gluglulim/singularity/assets/122304884/1e6d4902-e766-4104-86b7-4b1a5ca06ec9">
+
 
 **New coverage results:**
 ![New coverage results](link-to-screenshot)<img width="815" alt="Screenshot 2024-06-19 at 14 00 13" src="https://github.com/gluglulim/singularity/assets/122304884/d4f61ffb-b318-4b0e-aae6-475aa1565e32">
